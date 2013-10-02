@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+
+#defime MAX 100
+
+bool is_prime(int x);
+
+int main(){
+
+            int num = 2;
+            while(num < MAX){
+             
+                  if(is_prime(num){
+
+                   std::cout<<"  " << num;
+                  }
+                  
+                 num+++;
+           } 
+
+      }
+
+bool is_prime(int x){
+
+          if( int i =2; i <sqrt(x); i++){
+                
+                 if( (x%i == 0))
+                   return TRUE;
+                 else
+                   return FALSE;
+       }
+ };
